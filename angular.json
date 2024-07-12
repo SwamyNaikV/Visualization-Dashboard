@@ -68,10 +68,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "visualization-dashboard:build:production"
+              "buildTarget": "visualization-dashboard:build:production"
             },
             "development": {
-              "browserTarget": "visualization-dashboard:build:development"
+              "buildTarget": "visualization-dashboard:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -79,7 +79,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "visualization-dashboard:build"
+            "buildTarget": "visualization-dashboard:build"
           }
         },
         "test": {
